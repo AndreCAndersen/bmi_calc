@@ -10,7 +10,7 @@ shinyUI(fluidPage(
   sidebarLayout(
     sidebarPanel(
       "This is a BMI calculator. It takes mass in kilograms and hight in centimeters as input. Your BMI should be between 18.5 and 25. Use the sliders below and see how changes in kg and cm affects BMI. Read more about it ",
-      a(href="https://en.wikipedia.org/wiki/Body_mass_index", "here"),"on wikipedia.",
+      a(href="https://en.wikipedia.org/wiki/Body_mass_index", "here"),"on wikipedia. The source code is available",a(href="https://github.com/AndreCAndersen/bmi_calc", "here"),"on github.",
       sliderInput("cm",
                   "Hight in centimeters:",
                   min = 100,
