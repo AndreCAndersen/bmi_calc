@@ -24,7 +24,7 @@ shinyUI(fluidPage(
                   value = 80
       )
     ),
-    # Show a plot of the generated distribution
+    # Show a plot of the generated bmi
     mainPanel(
       plotOutput("bmiPlot")
     )
